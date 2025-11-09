@@ -2,7 +2,7 @@
 <div class="markdown-body css-0"><img align="right" width="240" src="https://img.alicdn.com/imgextra/i2/O1CN01Pda9nq1YDV0mnZ31H_!!6000000003025-54-tps-120-120.apng">
 <h1>wordpress-dow-plugins </h1>
 <blockquote>
-<p>使用方法：下载压缩包>在wordpress后台插件页上传压缩包>安装启用即可（）</p>
+<p>使用方法：下载压缩包>在wordpress后台插件页上传压缩包>安装启用即可</p>
 <p>目前已知支持WordPress 6.8.3，如大于这个版本请自行测试是否支持</p>
 </blockquote>
 <h2> 一、功能</h2>
@@ -13,13 +13,13 @@
 <li>4、样式多种渐变颜色（可选）</li> 
 <li>5、支持提端设备自适应</li>
 <h2>二、支持网盘</h2>
-  'caiyun.139.com'    => ['移动云盘', '139'],
-'cloud.189.cn'     => ['天翼云盘', '189'],
-'pan.baidu.com'    => ['百度网盘', 'baidu'],
-'aliyundrive.com'  => ['阿里云盘', 'aliyun'],
-'alipan.com'       => ['阿里云盘', 'aliyun'],
-'pan.quark.cn'     => ['夸克网盘', 'quark'],
-'drive.google.com' => ['Google Drive', 'gdrive']
+caiyun.139.com => 移动云盘</br>
+cloud.189.cn   => 天翼云盘</br>
+pan.baidu.com  =>百度网盘</br>
+aliyundrive.com => 阿里云盘</br>
+alipan.com      => 阿里云盘</br>
+pan.quark.cn     => 夸克网盘</br>
+drive.google.com =>Google Drive</br>
 </ul>
 <h2> 二、具体效果</h2>
 <ul>
