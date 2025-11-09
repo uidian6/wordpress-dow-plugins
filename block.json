@@ -1,0 +1,16 @@
+{
+  "apiVersion": 3,
+  "name": "fox/cloud-download",
+  "title": "附件下载卡片",
+  "category": "widgets",
+  "icon": "download",
+  "description": "自动识别网盘类型、加载图标、显示文件名和提取码。",
+  "editorScript": "file:./editor.js",
+  "style": "file:./style.css",
+  "render": "file:./render.php",
+  "attributes": {
+    "url": { "type": "string" },
+    "name": { "type": "string" },
+    "code": { "type": "string" }
+  }
+}

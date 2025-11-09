@@ -1,0 +1,23 @@
+.cdc-card {
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  padding:18px 22px;border-radius:16px;
+  background:linear-gradient(135deg,#3b82f6,#8b5cf6);
+  color:#fff;box-shadow:0 6px 20px rgba(0,0,0,.25);
+  transition:transform .15s ease;
+}
+.cdc-card:hover{transform:translateY(-2px);}
+.cdc-info{flex:1;display:flex;align-items:center;gap:.9rem;}
+.cdc-icon-box{width:40px;height:40px;min-width:40px;min-height:40px;
+  border-radius:10px;background:rgba(255,255,255,.15);
+  display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.cdc-icon-box img{width:60%;height:60%;object-fit:contain;}
+.cdc-text{display:flex;flex-direction:column;}
+.cdc-provider{font-weight:700;font-size:1.1rem;}
+.cdc-meta{opacity:.9;font-size:.9rem;margin-top:3px;}
+.cdc-btn{background:#fff;color:#3b82f6;font-weight:600;border-radius:10px;
+  padding:8px 14px;text-decoration:none;transition:all .2s;}
+.cdc-btn:hover{background:#f3f4f6;color:#2563eb;}
+@media(prefers-color-scheme:dark){
+  .cdc-card{background:linear-gradient(135deg,#1e3a8a,#6d28d9);}
+  .cdc-btn{background:#111827;color:#f9fafb;}
+}
